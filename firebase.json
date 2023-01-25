@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/amministrazione",
+        "destination": "/amministrazione.html",
+        "type": 301
+      },
+      {
+        "source": "/amm",
+        "destination": "/amministrazione.html",
+        "type": 301
+      }
+    ]
+  }
+}
